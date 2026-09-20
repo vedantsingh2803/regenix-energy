@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: regenix-hybrid-energy
+    env: python
+    buildCommand: ""
+    startCommand: python server.py
+    envVars:
+      - key: PORT
+        value: 10000
